@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid AI Hackathon</title>
+</head>
+<body>
+<div style="width:50%;float:left">
+You have about 15 minutes to finish this test. You are free to use the internet:
+<br><br>
+
+<!-- Start by providing me your mobile number: -->
+
+
+Okay now let's start. You need to write a javascript code to generate a hash which will be validated by a server. The hash will be based on the current epoch time. (epoch time is just a simple way computers use to represent current time as a single float variable. It is the number of seconds that have passed since 1st January, 1970).
+<br><br>
+You can print the current epoch time in javascript by writing the following code:
+<br><br><i>
+
+console.log(Date.now()/1000)
+<br><br>
+</i>
+# Output of the above would be
+<br>
+# 1473636383.373
+
+<br>
+# Before the fullstop is number of seconds and after the full stop is number of miliseconds
+<br><br>
+
+The hash to be generated is as follows:
+<br>
+First calculate the sum of all individual digits before the fullstop as sum1. Then calculate the sum of all individual digits after the fullstop as sum2.
+<br><br>
+Your hash final hash output will be:
+<br>
+(the current epoch time)-sum1-sum2.
+<br>
+That is, your generated hash output should look something like this:
+<br><br>
+<b>1473636383.373-44-13</b>
+
+<br><br>
+Once you have generated this hash in javascript, take the above hash, and open the following link in a new tab in your web browser:
+<br>
+<font color="blue">
+{{ site }}<b>your_hash</b><br>
+</font>
+(remember to replace your_hash with the hash that you generated)
+
+<br><br>
+That means something like this:
+<font color="blue">
+{{ site }}<b>1473636383.373-44-13</b>
+</font>
+<br><br>
+
+This page will tell you if your hash is valid and tell you what to do next. Remember the hash needs to be generated using javascript code. The quality of your javascript code will be checked.
+<br>Also the generated hash needs to be of a current time.
+<br><br>
+The problem is simple.
+<br><br>
+All the best.
+<br><br>
+You have to write the javascript code in the editor on your right. What are you waiting for, get started :)
+<br><Br>
+If you don't have javascript installed on your machine, please inform the HR.
+</div>
+
+<div style="width:40%;float:left;margin-left:7%;border-color:black">
+
+    <h3>JAVASCRIPT EDITOR</h3> <br>
+    <textarea style="width:100%;height:400px;background-color:black;color:white;" name="javascript_code" id="javascript_code">//Write your javascript code here
+
+console.log(Date.now()/1000);</textarea>
+    <br><br>
+    <input type="button" name="runCode" value="Run Code" onclick="evaluateJavascript()" />
+
+    <div id="resultDiv" style="margin-top:50px;">
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+//Redirecting Console Output to be available
+var consoleValue = "";
+console.originalLog = console.log;
+
+console.log = function(value)
+{
+    console.originalLog(value);
+    consoleValue += "<br>" + value;
+    return value;
+};
+
+//Javascript Evaluator of Code
+function evaluateJavascript()
+{
+    var code = $('textarea#javascript_code').val();
+
+    var result = "";
+    try
+    {
+        result = eval(code);
+    }
+    catch (e)
+    {
+        consoleValue += "<br>" + e;
+        //result = e;
+    }
+
+    result = "<h3>OUTPUT</h3>" + consoleValue;
+
+    consoleValue = "";
+
+    $('#resultDiv').html(result);
+}
+
+//Allowing tab to work in textarea
+$(document).delegate('#javascript_code', 'keydown', function(e) {
+  var keyCode = e.keyCode || e.which;
+
+  if (keyCode == 9) {
+    e.preventDefault();
+    var start = this.selectionStart;
+    var end = this.selectionEnd;
+
+    // set textarea value to: text before caret + tab + text after caret
+    $(this).val($(this).val().substring(0, start)
+                + "\t"
+                + $(this).val().substring(end));
+
+    // put caret at right position again
+    this.selectionStart =
+    this.selectionEnd = start + 1;
+  }
+});
+
+//Prevent Refresh of the Page
+window.onbeforeunload = function() {
+     return "If you refresh this page your test will end! Are you sure you want to do that?";
+}
+</script>
+
+</body>
+</html>

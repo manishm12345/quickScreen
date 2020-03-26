@@ -1,0 +1,35 @@
+//Write your javascript code here
+
+//Write your javascript code here
+
+var time = (Date.now()/1000);
+time = time.toString();
+var time = time.split(".");
+console.log(time[0])
+console.log(time);
+
+var sum = 0;
+var sum2 = 0;
+var milisum = 0;
+var milisum2 = 0;
+
+//for seconds
+for(var x = 0; x < time[0].length; x++)
+{
+	sum2 = sum2 + parseInt(time[0].substr(x,1));
+	sum = sum + parseInt(time[0][x]);
+}
+
+//for miliseconds
+for(var x = 0; x < time[1].length; x++)
+{
+	milisum2 = milisum2 + parseInt(time[1].substr(x,1));
+	milisum = milisum + parseInt(time[1][x]);
+}
+
+console.log(sum + "--" + sum2);
+console.log(milisum + "--" + milisum2);
+
+var url = "http://127.0.0.1:8000/x/bUpHRFdQXwltRA==/";
+
+console.log(url + time[0] + "." + time[1] + "-" + sum + "-" + milisum);

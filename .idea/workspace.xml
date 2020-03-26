@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7710c6ac-64dc-47ec-b15c-ad50e1bfd6a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XstWCSqWiCft9VUAM8bNOJlidS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StockMarket" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recruitment/hackathon/functions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recruitment/hackathon/templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7710c6ac-64dc-47ec-b15c-ad50e1bfd6a5" name="Default Changelist" comment="" />
+      <created>1581846658104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581846658104</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="571" y="270" width="424" height="497" key="FileChooserDialogImpl" timestamp="1584272776253">
+      <screen x="70" y="27" width="1430" height="972" />
+    </state>
+    <state x="571" y="270" width="424" height="497" key="FileChooserDialogImpl/70.27.1430.972@70.27.1430.972" timestamp="1584272776253" />
+    <state x="277" y="129" width="1016" height="743" key="SettingsEditor" timestamp="1583516998944">
+      <screen x="70" y="27" width="1430" height="972" />
+    </state>
+    <state x="277" y="129" width="1016" height="743" key="SettingsEditor/70.27.1430.972@70.27.1430.972" timestamp="1583516998944" />
+    <state x="445" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1584272761148">
+      <screen x="70" y="27" width="1430" height="972" />
+    </state>
+    <state x="445" y="311" key="com.intellij.ide.util.TipDialog/70.27.1430.972@70.27.1430.972" timestamp="1584272761148" />
+    <state x="448" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1583606870239">
+      <screen x="70" y="27" width="1430" height="972" />
+    </state>
+    <state x="448" y="234" width="672" height="678" key="search.everywhere.popup/70.27.1430.972@70.27.1430.972" timestamp="1583606870239" />
+  </component>
+</project>
