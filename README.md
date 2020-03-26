@@ -17,3 +17,6 @@ python3 manage.py runserver
 
 Open 127.0.0.1:80 on your browser
 
+## Development
+The hackathon app within recruitment is where all the key functionality rests. 
+
