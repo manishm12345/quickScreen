@@ -1,25 +1,255 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Fluid AI Hackathon Start</title>
+<title>details</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+label
+  color: white;
+  padding: 8px;
+}
+select {
+  color: black;
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: lightblue;
+}
+
+input[type=submit] {
+  background-color: aqua;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: lightpink;
+}
+
+</style>
+
+<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}" />
+
+<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}"  >
+
+<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}"  >
+
+<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}" >
+
+<link rel="stylesheet" type="text/css" href="{% static "vendor/animate/animate.css" %}"  >
+
+<link rel="stylesheet" type="text/css" href="{%  static "vendor/css-hamburgers/hamburgers.min.css" %}" >
+
+<link rel="stylesheet" type="text/css" href="{% static "vendor/animsition/css/animsition.min.css" %}"  >
+
+<link rel="stylesheet" type="text/css" href="{% static "vendor/select2/select2.min.css"  %}"  >
+
+<link rel="stylesheet" type="text/css" href="{% static "vendor/daterangepicker/daterangepicker.css" %}" >
+
+<link rel="stylesheet" type="text/css" href="{% static "css/util.css" %}" >
+<link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}" >
+
 </head>
 <body>
-Start by giving your mobile number
-<br><br>
+<div class="limiter">
+<div class="container-login100" style=  "background-image: url({% static 'images/download.jpg' %});" >
+<div class="wrap-login100">
 
-<!-- Start by providing me your mobile number: -->
+<!--class="login100-form validate-form"-->
+
+<form action = "test_instructions/">
+<span class="login100-form-logo">
+<i class="zmdi zmdi-landscape"></i>
+</span>
+<span class="login100-form-title p-b-34 p-t-27">
+DETAILS
+</span>
+
+<div class="wrap-input100 validate-input" data-validate="Enter username">
+<input class="input100" type="text" name="name" placeholder="FULL NAME">
+<span class="focus-input100" ></span>
+</div>
+<div class="wrap-input100 validate-input" data-validate="Enter password">
+<input class="input100" type="number" name="mobile" placeholder="MOBILE NO">
+<span class="focus-input100" ></span>
+</div>
+   <label for="country" >Language</label>
+    <select id="country" name="language">
+      <option name="language"  value="Nodejs">Nodejs</option>
+      <option name='language'  value="Python">Python</option>
+      <option name="language"  value="Linux">Linux</option>
+    </select>
+<!--<div class="contact100-form-checkbox">-->
+<!--<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">-->
+<!--<label class="label-checkbox100" for="ckb1">-->
+<!--Remember me-->
+<!--</label>-->
+<!--</div>-->
+<!--<div class="container-login100-form-btn">-->
+<!--<button class="login100-form-btn">-->
+<!--Login-->
+<!--</button>-->
+<br><br>
+<div class="container-login100-form-btn">
+<input type="submit" value="Submit">
+</div>
 
 
-<form action="test_instructions/">
-<input type='text' name='mobile'>
-<br><br>
-<input type="radio" name="language" value="nodejs"> Nodejs <br>
-<input type="radio" name="language" value="python"> Python <br>
-<input type="radio" name="language" value="linux"> Linux <br>
-<br>
-<input type='submit' text='Start Test'>
-<br><br>
-</form>
+
+
+<!--<div class="text-center p-t-90">-->
+<!--<a class="txt1" href="#">-->
+<!--ADMIN?-->
+<!--</a>-->
+<!--</div>-->
+
+</div>
+</div>
+</div>
+<!--<div id="dropDownSelect1"></div>-->
+
+<!--<script src="{% static "vendor/jquery/jquery-3.2.1.min.js" %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script src="{% static "vendor/animsition/js/animsition.min.js" %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script src="{% static "vendor/bootstrap/js/popper.js " %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+<!--<script src="{% static "vendor/bootstrap/js/bootstrap.min.js" %}"  type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script src="{% static "vendor/select2/select2.min.js" %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script src="{% static "vendor/daterangepicker/moment.min.js"%}"  type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+<!--<script src="{% static "vendor/daterangepicker/daterangepicker.js" %}"  type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script src="{% static "vendor/countdowntime/countdowntime.js" %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script src="{% static "js/main.js" %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+
+<!--<script async src="{% static "https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" %}" type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript"></script>-->
+<!--<script type="2dddc0b8ca52ea0eaeaa9bfe-text/javascript">-->
+<!--	  window.dataLayer = window.dataLayer || [];-->
+<!--	  function gtag(){dataLayer.push(arguments);}-->
+<!--	  gtag('js', new Date());-->
+
+<!--	  gtag('config', 'UA-23581568-13');-->
+<!--	</script>-->
+<!--<script src="{% static "https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" %}"  data-cf-settings="2dddc0b8ca52ea0eaeaa9bfe-|49" defer="">-->
+<!--</script>-->
 </body>
 </html>
+
+
+
+
+
+<!--https://www.w3schools.com/howto/howto_css_newsletter.asp-->
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--<style>-->
+<!--body {font-family: Arial, Helvetica, sans-serif;}-->
+<!--* {box-sizing: border-box;}-->
+
+<!--input[type=text], select, textarea {-->
+<!--  width: 100%;-->
+<!--  padding: 12px;-->
+<!--  border: 1px solid #ccc;-->
+<!--  border-radius: 4px;-->
+<!--  box-sizing: border-box;-->
+<!--  margin-top: 6px;-->
+<!--  margin-bottom: 16px;-->
+<!--  resize: vertical;-->
+<!--}-->
+
+<!--input[type=submit] {-->
+<!--  background-color:#4CAF50;-->
+<!--  color: white;-->
+<!--  padding: 12px 20px;-->
+<!--  border: none;-->
+<!--  border-radius: 4px;-->
+<!--  cursor: pointer;-->
+<!--}-->
+
+<!--input[type=submit]:hover {-->
+<!--  background-color: lightpink;-->
+<!--}-->
+
+<!--.container {-->
+<!--  border-radius: 5px;-->
+<!--  background-color: #f2f2f2;-->
+<!--  padding: 20px;-->
+<!--}-->
+<!--</style>-->
+<!--</head>-->
+<!--<body><div  style = "text-align: center">-->
+<!--    <h3>Details </h3>-->
+<!--</div>-->
+
+<!--<div class="container" >-->
+
+<!--  <form action= "test_instructions/">-->
+<!--    <label for="name">Full Name</label>-->
+<!--    <input type="text" id="name" name="name" placeholder="Your name..">-->
+
+<!--    <label for="Mnumber">Mobile Number</label>-->
+<!--    <input type="text" id="Mnumber" name="mobile" placeholder="Your Mobile No ..">-->
+
+<!--    <label for="country">Language</label>-->
+<!--    <select id="country" name="country">-->
+<!--      <option value="language">Nodejs</option>-->
+<!--      <option value="language">Python</option>-->
+<!--      <option value="language">Linux</option>-->
+<!--    </select>-->
+
+<!--    <input type="submit" value="Submit">-->
+<!--  </form>-->
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Fluid AI Hackathon Start</title>-->
+<!--</head>-->
+<!--<body style="background-color: blue ;">-->
+
+<!--  <div>-->
+
+<!--      <h1>Start by giving your Name and Mobile number</h1>-->
+<!--  </div>-->
+
+<!--<br><br>-->
+
+<!--&lt;!&ndash; Start by providing me your mobile number: &ndash;&gt;-->
+
+
+<!--<form action="test_instructions/">-->
+<!--    Name:          <input type='text' name='name'>-->
+<!--<br><br>-->
+<!--    Mobile Number: <input type='text' name='mobile'>-->
+<!--<br><br>-->
+<!--  Choose Language:<br>-->
+<!--  <input type="radio" name="language" value="nodejs"> Nodejs <br>-->
+<!--  <input type="radio" name="language" value="python"> Python <br>-->
+<!--  <input type="radio" name="language" value="linux"> Linux <br>-->
+<!--  <br>-->
+<!--   <input type='submit' text='Start Test'>-->
+<!--  <br><br>-->
+<!--    <button> Admin</button>-->
+
+<!--  </form>-->
+<!--  </body>-->
+<!--  </html>-->

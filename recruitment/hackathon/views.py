@@ -8,15 +8,29 @@ from django.shortcuts import redirect
 from django.contrib.sites.shortcuts import get_current_site
 
 
+
 def start_test(request):
     return render(request, "start_test.html", {})
     # text = """<h1>welcome to my app !</h1>"""
     # return HttpResponse(text)
 
 
+
+#my changes
+def admin(request):
+    return render(request ,'admin.html')
+
 def test_instructions(request):
     current_site = get_current_site(request)
     # redirect user back if no language selected
+    #print(type(request.GET['mobile']), type(request.GET['name']))
+
+    #my changes
+    if request.GET['mobile']=="8888" and request.GET['name']=='admin':
+        return redirect('admin/')
+
+
+
     if "language" in request.GET:
         language = request.GET['language']
     else:
@@ -47,6 +61,8 @@ def evaluate_hash(request):
     url = request.path.split('/')
 
     received_hash = url[3]
+
+
 
     print(received_hash)
     if received_hash is None or received_hash == "" or len(received_hash) < 2:

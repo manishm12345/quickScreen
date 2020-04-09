@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7710c6ac-64dc-47ec-b15c-ad50e1bfd6a5" name="Default Changelist" comment="" />
+    <list default="true" id="7710c6ac-64dc-47ec-b15c-ad50e1bfd6a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Recruitment_Test_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recruitment_Test_Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/hackathon/functions/encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/hackathon/functions/encryption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/hackathon/templates/start_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/hackathon/templates/start_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/recruitment/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/recruitment/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XstWCSqWiCft9VUAM8bNOJlidS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,15 +35,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StockMarket" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/telusko" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/recruitment/hackathon/functions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/recruitment/hackathon/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recruitment/hackathon/functions" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -45,21 +64,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581846658104</updated>
+      <workItem from="1586250243397" duration="13910000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="571" y="270" width="424" height="497" key="FileChooserDialogImpl" timestamp="1584272776253">
-      <screen x="70" y="27" width="1430" height="972" />
+    <state x="479" y="182" width="409" height="373" key="FileChooserDialogImpl" timestamp="1586277076882">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="479" y="182" width="409" height="373" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586277076882" />
     <state x="571" y="270" width="424" height="497" key="FileChooserDialogImpl/70.27.1430.972@70.27.1430.972" timestamp="1584272776253" />
     <state x="277" y="129" width="1016" height="743" key="SettingsEditor" timestamp="1583516998944">
       <screen x="70" y="27" width="1430" height="972" />
     </state>
     <state x="277" y="129" width="1016" height="743" key="SettingsEditor/70.27.1430.972@70.27.1430.972" timestamp="1583516998944" />
-    <state x="445" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1584272761148">
-      <screen x="70" y="27" width="1430" height="972" />
+    <state x="358" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1586250243927">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="358" y="213" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586250243927" />
     <state x="445" y="311" key="com.intellij.ide.util.TipDialog/70.27.1430.972@70.27.1430.972" timestamp="1584272761148" />
     <state x="448" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1583606870239">
       <screen x="70" y="27" width="1430" height="972" />
